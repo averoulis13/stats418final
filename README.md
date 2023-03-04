@@ -2,7 +2,8 @@
 Stats 418 Final Project on Predicting NBA Props
 
 Goal: Predict NBA player statistics for a particular game against a chosen opponent, to
-be used as a resource for sports gamblers
+be used as a resource for sports gamblers.
+
 ● Build an Rshiny app that predicts player props (points, rebs, assists, 3pm, etc.)
 given team and opposing team statistics
 
