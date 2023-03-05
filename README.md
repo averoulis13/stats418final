@@ -1,19 +1,15 @@
 # stats418final
 Stats 418 Final Project on Predicting NBA Props
 
-Goal: Predict NBA player statistics for a particular game against a chosen opponent, to
-be used as a resource for sports gamblers.
+Goal: Predict NBA player statistics for a particular game against a chosen opponent, to be used as a resource for sports gamblers.
 
-● Build an Rshiny app that predicts player props (points, rebs, assists)
-given team and opposing team statistics
+● So far we used a scraper to get player statistics and team rankings from basketball-reference.com; we had to loop through each player's web page to get game logs for the current season and filtered out games that they did not play. Each set of player game logs was stored as an element within a list. Then, we joined the opponent team data to each row in which the player faced that opposing team. 
 
-● Drop down menus of players, statistics, and opponents
-
-● Use scraper to get player statistics and team rankings from basketball-reference.com; had to loop through each player's web page to get game logs for the current season, filtered out games that they did not play
+● There were 89 players of interest that fulfilled our criteria of being in the league as of 2019, averaging at least 18 MPG and starting at least 41 team games.
 
 ● Use rolling averages of first ~50 games in each player's game logs to train a model for each stat, then test model on remaining games in game logs
 
-● This will allow us to make appropriate stat predictions for player/opponent matchups in the future
+● We are working on building an Rshiny app that predicts player props (points, rebounds, and assists) given the player's previous performances and opposing team statistics. There will be drop down menus of players, statistics, and opponents, which will allow us to make and display appropriate stat predictions for player/opponent matchups in the future. 
 
 
 
